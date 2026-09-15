@@ -1,0 +1,9 @@
+{
+  "exclude": ["fixtures"],
+  "fail_below": 50,
+  "weights": {
+    "Evaluation": 1.5,
+    "Security & PII": 1.5,
+    "Reliability": 1.25
+  }
+}
