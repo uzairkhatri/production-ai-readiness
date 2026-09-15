@@ -30,6 +30,6 @@ def sarif(result: AuditResult) -> str:
             if f.severity=="PASS": continue
             rule_id=d.name.lower().replace(" & ","-").replace(" ","-")
             rules[rule_id]={"id":rule_id,"name":d.name,"shortDescription":{"text":d.name+" readiness"}}
-            results.append({"ruleId":rule_id,"level":levels[f.severity],"message":{"text":f.message+" "+f.evidence}})
+            results.append({"ruleId":rule_id,"level":levels[f.severity],"message":{"text":f.message+" "+f.evidence},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"README.md"},"region":{"startLine":1}}}]})
     doc={"version":"2.1.0","$schema":"https://json.schemastore.org/sarif-2.1.0.json","runs":[{"tool":{"driver":{"name":"Production AI Readiness","rules":list(rules.values())}},"results":results}]}
     return json.dumps(doc,indent=2)
