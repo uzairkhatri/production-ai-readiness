@@ -18,8 +18,25 @@ Reports:
 ```bash
 production-ai-readiness audit . --format json --output readiness.json
 production-ai-readiness audit . --format markdown --output readiness.md
+production-ai-readiness audit . --format sarif --output readiness.sarif
 production-ai-readiness audit . --fail-below 60
 ```
+
+## See the signal change
+
+The repository ships two small examples so you can see the audit behavior instead of taking the README's word for it.
+
+```bash
+# deliberately incomplete AI app
+production-ai-readiness audit examples/sample-ai-app
+
+# example with explicit production-readiness evidence
+production-ai-readiness audit examples/production-ready
+```
+
+The second example includes evaluation, guardrails, retrieval, logging, PII handling, reliability controls, budgets/rate limits and human review. These are **static evidence demonstrations, not a production-safety certification**.
+
+[Read the demo walkthrough →](docs/demo.md)
 
 ## What it checks
 
@@ -57,6 +74,7 @@ Static repository evidence cannot prove runtime behavior, model quality, securit
 ## Roadmap
 
 - richer framework-specific detectors
+- packaged demo / release artifacts
 - configurable rule weights
 - SARIF output
 - baseline/diff mode for pull requests
