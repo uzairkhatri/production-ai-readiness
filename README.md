@@ -6,6 +6,12 @@ Production AI Readiness is an open-source Python CLI that performs a determinist
 
 It is a **readiness signal, not a certification**: the tool reports what it can prove from repository evidence and labels what still requires human verification.
 
+<p align="center">
+  <img src="./docs/assets/readiness-demo.svg" alt="Production AI Readiness CLI audit showing readiness dimensions and evidence-based findings" width="100%" />
+</p>
+
+<p align="center"><strong>Catch production AI risks before the PR merges.</strong></p>
+
 ## Quick start
 
 ```bash
