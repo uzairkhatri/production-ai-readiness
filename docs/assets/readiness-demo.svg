@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+<rect width="1500" height="820" rx="28" fill="#0b0f11"/>
+<rect x="35" y="35" width="1430" height="750" rx="20" fill="#111618" stroke="#343b3d" stroke-width="2"/>
+<style>.t{font-family:Arial,sans-serif}.w{fill:#f4f4f0}.m{fill:#aeb6b8}.a{fill:#f5a623}.g{fill:#74c991}.r{fill:#ef7b72}.c{fill:#65b8c9}</style>
+<circle cx="75" cy="72" r="8" fill="#ef7b72"/><circle cx="101" cy="72" r="8" fill="#e7c56a"/><circle cx="127" cy="72" r="8" fill="#74c991"/>
+<text x="170" y="80" class="t m" font-size="20">production-ai-readiness audit .</text>
+<text x="75" y="145" class="t w" font-size="32" font-weight="700">PRODUCTION AI READINESS</text>
+<text x="75" y="185" class="t m" font-size="20">Evidence-based repository audit · deterministic · CI friendly</text>
+<text x="1110" y="150" class="t a" font-size="46" font-weight="700">71 / 100</text><text x="1110" y="184" class="t m" font-size="18">NEEDS WORK</text>
+<g class="t" font-size="20">
+<text x="75" y="255" class="w">Evaluation</text><text x="380" y="255" class="g">███████░░░</text><text x="620" y="255" class="w">70</text>
+<text x="75" y="300" class="w">Observability</text><text x="380" y="300" class="c">██████░░░░</text><text x="620" y="300" class="w">60</text>
+<text x="75" y="345" class="w">Guardrails</text><text x="380" y="345" class="g">████████░░</text><text x="620" y="345" class="w">80</text>
+<text x="75" y="390" class="w">RAG Quality</text><text x="380" y="390" class="a">█████░░░░░</text><text x="620" y="390" class="w">50</text>
+<text x="75" y="435" class="w">Security &amp; PII</text><text x="380" y="435" class="g">████████░░</text><text x="620" y="435" class="w">80</text>
+<text x="75" y="480" class="w">Reliability</text><text x="380" y="480" class="g">████████░░</text><text x="620" y="480" class="w">80</text>
+<text x="75" y="525" class="w">Cost Controls</text><text x="380" y="525" class="c">██████░░░░</text><text x="620" y="525" class="w">60</text>
+<text x="75" y="570" class="w">Human Oversight</text><text x="380" y="570" class="g">█████████░</text><text x="620" y="570" class="w">90</text>
+</g>
+<line x1="735" y1="225" x2="735" y2="705" stroke="#343b3d" stroke-width="2"/>
+<text x="790" y="255" class="t w" font-size="24" font-weight="700">FINDINGS</text>
+<text x="790" y="310" class="t r" font-size="18" font-weight="700">HIGH</text><text x="875" y="310" class="t w" font-size="18">RAG Quality</text><text x="790" y="342" class="t m" font-size="17">Retrieval-quality evaluation evidence missing.</text>
+<text x="790" y="410" class="t a" font-size="18" font-weight="700">MEDIUM</text><text x="900" y="410" class="t w" font-size="18">Cost Controls</text><text x="790" y="442" class="t m" font-size="17">Explicit token/cost budget evidence missing.</text>
+<text x="790" y="510" class="t g" font-size="18" font-weight="700">PASS</text><text x="870" y="510" class="t w" font-size="18">Human Oversight</text><text x="790" y="542" class="t m" font-size="17">Human approval / escalation evidence detected.</text>
+<rect x="790" y="610" width="570" height="76" rx="12" fill="#0b0f11" stroke="#343b3d"/><text x="820" y="643" class="t c" font-size="17">JSON · Markdown · SARIF · CI threshold</text><text x="820" y="671" class="t m" font-size="16">Static evidence signal — not a safety certification.</text>
+<text x="75" y="735" class="t a" font-size="18" font-weight="700">Catch production AI risks before the PR merges.</text>
+</svg>
