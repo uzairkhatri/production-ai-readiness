@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "production-ai-readiness"
-version = "0.1.0"
+version = "0.2.0"
 description = "Evidence-based production readiness audits for AI and LLM applications"
 readme = "README.md"
 requires-python = ">=3.10"
